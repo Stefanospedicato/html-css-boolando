@@ -14,7 +14,6 @@ body{
 
 header{
   height: 100px;
-  max-width: 100%;
   background-color: #FE6900;
 }
  header ul{
@@ -35,7 +34,7 @@ header .container{
 
 .container{
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 50px auto;
   display: flex;
   flex-wrap: wrap;
 }
@@ -50,6 +49,7 @@ header .container{
   position: relative;
   margin: 10px;
   cursor: pointer;
+  width: 380px;
 }
 
 .card .discount{
@@ -69,4 +69,13 @@ header .container{
   left: 0;
   bottom: 30px;
 
+}
+
+.orange{
+  color: red;
+  font-weight: bold;
+}
+
+img{
+  max-width: 100%;
 }
