@@ -13,26 +13,66 @@ body{
 }
 
 header{
+  display: flex;
+  justify-items: space-between;
+  align-items: center;
   height: 100px;
   background-color: #FE6900;
 }
- header ul{
-  list-style: none;
- }
 
-header ul li{
-  color: white;
-  font-size: 1.5rem;
-  font-weight: bold;
-}
+.topbar{
+  position: fixed;
+  height: 100px;
+  width: 100%;
 
-header .container{
-  height: 100%;
-  justify-content: space-between;
-  align-items: center;
+
 }
 
 .container{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.topbar .container{
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+ul{
+  list-style: none;
+ }
+
+header ul li a{
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+header ul li a:hover{
+  text-decoration: underline;
+}
+
+.topbar .container{
+  justify-content: space-between;
+  align-items: center;
+  height: 100%
+;
+}
+
+header i{
+  color: white;
+  font-weight: bold;
+  padding: 3px;
+}
+
+header img{
+  width: 250px;
+}
+
+main .container{
   max-width: 1200px;
   margin: 50px auto;
   display: flex;
@@ -95,4 +135,21 @@ img{
   position: absolute;
   right: -1px;
   top: 10px;
+}
+
+span i:hover{
+  color: red;
+}
+
+
+
+footer{
+  background-color: #1C1B1C;
+  color: white;
+  padding:30px;
+}
+
+footer.container{
+margin-left: 30%;
+margin-right: 30%;
 }
