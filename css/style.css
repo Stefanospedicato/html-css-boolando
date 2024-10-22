@@ -51,3 +51,22 @@ header .container{
   margin: 10px;
   cursor: pointer;
 }
+
+.card .discount{
+  background-color: red;
+  padding: 5px 10px;
+  color: white;
+  position: absolute;
+  left: 0;
+  bottom: 30px;
+}
+
+.card .sostenibilità{
+  background-color: green;
+  padding: 5px 10px;
+  color: white;
+  position: absolute;
+  left: 0;
+  bottom: 30px;
+
+}
